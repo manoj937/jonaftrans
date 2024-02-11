@@ -1,0 +1,19 @@
+{
+  "name": "bike-bookings",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "lib/back-end/bike-bookings/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "lib/back-end/bike-bookings/jest.config.ts"
+      }
+    }
+  },
+  "tags": []
+}

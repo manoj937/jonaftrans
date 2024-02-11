@@ -14,7 +14,26 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@jonaftrans/back-end/invoice": ["libs/back-end/invoice/src/index.ts"],
+      "@jonaftrans/invoice": ["invoice/src/index.ts"],
+      "@jonaftrans/lib/back-end//bike": ["lib/back-end/bike/src/index.ts"],
+      "@jonaftrans/lib/back-end//bike-bookings": [
+        "lib/back-end/bike-bookings/src/index.ts"
+      ],
+      "@jonaftrans/lib/back-end//branch": ["lib/back-end/branch/src/index.ts"],
+      "@jonaftrans/lib/back-end//car": ["lib/back-end/car/src/index.ts"],
+      "@jonaftrans/lib/back-end//car-bookings": [
+        "lib/back-end/car-bookings/src/index.ts"
+      ],
+      "@jonaftrans/lib/back-end//customer": [
+        "lib/back-end/customer/src/index.ts"
+      ],
+      "@jonaftrans/lib/back-end//travel-agency": [
+        "lib/back-end/travel-agency/src/index.ts"
+      ],
+      "@jonaftrans/lib/back-end/invoice": ["lib/back-end/invoice/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
